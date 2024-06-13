@@ -1,0 +1,47 @@
+.Adicionar {
+    background-color: bisque;
+    font-family: 'Krona one';
+
+}
+
+.add-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.left-icon {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    color: black;
+    
+}
+
+.bloco1 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #E37A3B;
+    max-width: 50%;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='year'] {
+    width: 100%;
+    height: 28px;
+    border-radius: 12px;
+    border-color: #fff;
+}
+
+button{
+    border-radius: 10px;
+}

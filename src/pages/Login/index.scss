@@ -1,0 +1,111 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../../assets/images/cine.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.login .logo {
+    display: flex;
+    align-items: center;
+   
+}
+
+.login .logo img {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+
+.login-container {
+    width: 450px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+}
+
+.login-container h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Krona One';
+}
+
+.form-group {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px auto;
+}
+
+.form-group input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    color: black;
+    font-size: 16px;
+    padding: 20px 25px;
+}
+
+.form-group input::placeholder {
+    color: black;
+}
+
+.form-group .icon {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: black;
+}
+
+.login-container .recall-forget {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+   
+
+}
+
+.recall-forget label {
+    color: black;
+}
+
+.recall-forget input {
+    margin: 15px;
+}
+
+
+
+.login-container button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

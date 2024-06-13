@@ -1,0 +1,146 @@
+section {
+    background-color: bisque;
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 95%;
+        align-items: center;
+        margin: 8px;
+
+
+    }
+
+    .imagem {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+
+
+    }
+
+    .imagem>img {
+        height: 40px;
+    }
+
+    .home {
+        display: flex;
+        justify-content: space-around;
+        align-items: start;
+        width: 100%;
+        min-height: 500px;
+        font-family: 'Krona One';
+
+
+        background-image: url(../../assets/images/duna.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px -200px;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .buscar {}
+
+
+
+
+    .secao2 {
+        margin: 20px 30px;
+        font-family: 'Krona One';
+        width: 100%;
+
+        .secao2>div{
+            width: 100%;
+        }
+
+        .filmes-container-home {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px; 
+          }
+
+
+        .container-home {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 15px;
+
+        }
+
+        .container1 {
+            
+            align-items: center;
+            gap: 10px;
+            font-size: 15px;
+        }
+
+        .fogo {
+            color: #f66326;
+        }
+    }
+
+    
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-image: url(../../assets/images/miranha.webp);
+        color: #fff;
+        position: relative;
+        font-family: 'Krona One';
+    }
+
+    .inicial {
+        color: #fff;
+       font-size: 30px;
+       position: relative;
+       top: 210px;
+
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-links a {
+        color: black;
+        text-decoration: none;
+        margin: 5px 0;
+    }
+
+    .footer-links a:hover {
+        text-decoration: underline;
+    }
+
+    .img-footer {
+        position: absolute;
+        right: 20px;
+    }
+
+    .img-footer img {
+        height: 40px;
+    }
+
+
+
+    a {
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+
+    }
+
+    a:visited {
+        color: black;
+    }

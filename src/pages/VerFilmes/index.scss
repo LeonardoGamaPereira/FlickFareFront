@@ -1,0 +1,24 @@
+.VerFilmes{
+    background-color: bisque;
+    font-family: 'Krona One';
+    height: 100vh;
+    }
+    
+.app-container1{
+        
+}
+
+.corpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+    div{
+        display: flex;
+        gap: 20px;
+    }
+}
+
+

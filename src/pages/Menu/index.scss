@@ -1,0 +1,69 @@
+.menu {
+    background-color: #ffe4c4;
+    font-family: 'Krona One';
+    }
+    
+    .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 100px;
+        height: 100vh;
+
+}
+
+h1 {
+
+    color: black;
+    font-size: 32px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #E37A3B;
+    max-width: 50%;
+    width: 400px;
+    margin-bottom: 20px;
+
+    .retangulomenu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #E3C687;
+        border-radius: 12px;
+        text-decoration: none;
+    }
+
+    .botao {
+        color: #000;
+        text-align: center;
+        
+        
+    }
+
+    .retangulomenu a:link {
+        color: #000;
+    }
+
+    .retangulomenu a:visited {
+        color: #000;
+    }
+
+    .retangulomenu:hover {
+        color: #fff;
+        background-color: #393632;
+        padding: 5px;
+        transition: 0.5s;
+        cursor: pointer;
+
+        .botao {
+            color: #fff;
+            
+        }
+    }
+}

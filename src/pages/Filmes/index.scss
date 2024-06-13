@@ -1,0 +1,19 @@
+.filmes{
+    background-color: bisque;
+    font-family: 'Krona One';
+    }
+    
+    
+    .filmes-container{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+}
+
+.quadro{
+    display: flex;
+    gap: 25px;    
+}
